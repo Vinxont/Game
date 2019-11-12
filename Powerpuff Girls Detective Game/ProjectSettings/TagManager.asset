@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: background
+    uniqueID: 323600485
+    locked: 0
+  - name: iteractive obj
+    uniqueID: 174419581
+    locked: 0
+  - name: player
+    uniqueID: 322641455
+    locked: 0
+  - name: buttons
+    uniqueID: 2026249145
+    locked: 0
