@@ -26,4 +26,12 @@ public class Clickable : MonoBehaviour
         objlock.SetActive(true);
         objtext.SetActive(true);
     }
+
+    private void OnMouseUp()
+    {
+        Debug.Log("on mouse exit");
+        //add the image 
+        objlock.SetActive(false);
+        objtext.SetActive(false);
+    }
 }

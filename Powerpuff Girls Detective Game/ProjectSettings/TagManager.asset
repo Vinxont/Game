@@ -44,6 +44,9 @@ TagManager:
   - name: background
     uniqueID: 323600485
     locked: 0
+  - name: monkey
+    uniqueID: 2490534627
+    locked: 0
   - name: iteractive obj
     uniqueID: 174419581
     locked: 0
