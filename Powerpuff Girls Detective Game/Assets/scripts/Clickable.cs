@@ -6,6 +6,8 @@ public class Clickable : MonoBehaviour
 {
     [SerializeField] private GameObject objlock;
     [SerializeField] private GameObject objtext;
+    bool anything = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -21,17 +23,14 @@ public class Clickable : MonoBehaviour
 
     private void OnMouseDown()
     {
+        
         Debug.Log("on mouse down");
         //add the image 
-        objlock.SetActive(true);
-        objtext.SetActive(true);
+        objlock.SetActive(!anything);
+        objtext.SetActive(!anything);
+        anything = !anything;
+
     }
 
-    private void OnMouseUp()
-    {
-        Debug.Log("on mouse exit");
-        //add the image 
-        objlock.SetActive(false);
-        objtext.SetActive(false);
-    }
+    
 }

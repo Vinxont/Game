@@ -546,6 +546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   input_text: {fileID: 2003463638}
+  cage: {fileID: 803845721}
 --- !u!1 &206879801
 GameObject:
   m_ObjectHideFlags: 0
